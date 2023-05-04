@@ -1,0 +1,39 @@
+*{
+    font-family: 'Major Mono Display', monospace;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-image: url("https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    text-align: center;
+    background-color: black;
+}
+
+section{
+    margin: 50% auto;
+    padding: 0;
+    font-size: 7.5em;
+    color: white;
+}
+
+button{
+    font-size: 1.3em;
+    font-family: 'Rhodium Libre', serif;
+    border-radius: 18px;
+    padding: 2px 4px;
+    margin: 0 auto;
+}
+
+#start{
+    background-color: #60d394;
+}
+
+#stop{
+    background-color: #ee6055;
+}
+
+#reset {
+    background-color: #ffd97d;
+}
